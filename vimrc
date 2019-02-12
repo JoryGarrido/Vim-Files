@@ -1,5 +1,8 @@
 "Plugins
-
+call plug#begin('~/.vim/plugged')
+" Vim colorscheme
+Plug 'owickstrom/vim-colors-paramount'
+call plug#end()
 
 " Colors 
 syntax enable " Turns on syntax hilighting
@@ -34,6 +37,7 @@ augroup configgroup
     autocmd VimEnter * highlight clear SignColumn
     autocmd BufWritePre *.php,*.py,*.js,*.txt,*.hs,*.java,*.md,*.ts,*.css,*.scss
         \:call <SID>StripTrailingWhiteSpaces()
+    autocmd VimEnter * colorscheme paramount
 augroup END
 
 " Functions
