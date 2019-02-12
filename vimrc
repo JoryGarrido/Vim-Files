@@ -17,9 +17,9 @@ set lazyredraw " Redraw only when we need to
 
 
 " Spaces & Tabs
-set tabstop=4 " number of visual spaces per TAB
-set softtabstop=4 " number of spaces in tab when editing
-set expandtab " tabs become hotkey for 4 spaces
+set tabstop=2 " number of visual spaces per TAB
+set softtabstop=2 " number of spaces in tab when editing
+set expandtab " tabs become hotkey for 2 spaces
 
 
 " Searching
